@@ -2,5 +2,64 @@
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "todohighlight.keywords": [
+  
+    {
+      "pattern": "TODO:",
+      "style": {
+        "dark": {
+          "color": "#757575"
+        },
+        "light": {
+          "color": "#fff"
+        },
+        "backgroundColor": "#ffbd2a",
+        "borderRadius": "2px",
+        "border": "1px solid red"
+      },
+      "description": "Things need to be done later."
+    },
+    {
+      "pattern": "FIXME:",
+      "style": {
+        "dark": {
+          "color": "#eee"
+        },
+        "light": {
+          "color": "#fff"
+        },
+        "backgroundColor": "#f06292",
+        "borderRadius": "2px",
+        "border": "1px solid red"
+      },
+      "description": "Things need to be fixed."
+    },
+    "AVOID:",
+    "BUG:",
+    "CAUTION:",
+    "CONFIGURATION:",
+    "DEBUG:",
+    "DEPRECATED:",
+    "DO_NOT_REMOVE:",
+    "HACK:",
+    "IMPORTANT:",
+    "IMPROVE:",
+    "INFO:",
+    "ISSUE:",
+    "KEEP:",
+    "LEGACY:",
+    "NOTE:",
+    "OPTIMIZE:",
+    "PERFORMANCE:",
+    "PLACEHOLDER:",
+    "PREFER:",
+    "REFACTOR:",
+    "REMOVE:",
+    "REVIEW:",
+    "RFC:",
+    "TEMP:",
+    "WARNING:"
+  ],
+  "todo-tree.general.statusBar": "total"
 }
